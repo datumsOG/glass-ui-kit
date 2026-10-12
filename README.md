@@ -41,4 +41,4 @@ layer to your map last, and mark elements with `data-glass`. Tests: `node --test
 I designed the kit, judged every optical setting by eye on a test bench over a live map, and
 directed its construction with AI coding agents (Claude Code).
 
-The code is MIT-licensed (see `LICENSE`). Typeface: Atkinson Hyperlegible Next, SIL Open Font License 1.1.
+The code is MIT-licensed (see `LICENSE`). The fonts in `src/fonts/` keep their own licence (see `src/fonts/LICENSE.md`).
