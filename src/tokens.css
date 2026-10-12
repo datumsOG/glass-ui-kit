@@ -1,0 +1,36 @@
+/* GENERATED from src/tokens.json (kit 1.0.2) by tools/build.mjs. Do not edit: change tokens.json and rebuild. */
+:root {
+  --e-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --e-t-caption: 12.5px;
+  --e-t-label: 14px;
+  --e-t-body: 16px;
+  --e-t-title: 21px;
+  --e-t-display: 36px;
+  --e-ink: #fff;
+  --e-ink-2: #fff;
+  --e-ink-3: #fff;
+  --e-on-ink: #17161a;
+  --e-pane: rgba(22, 22, 26, 0.55);
+  --e-pane-blur: blur(18px) saturate(1.25);
+  --e-pane-tint: rgba(8, 8, 10, 0.26);
+  --e-well: rgba(0, 0, 0, 0.30);
+  --e-well-deep: rgba(0, 0, 0, 0.42);
+  --e-lip-dark: rgba(0, 0, 0, 0.55);
+  --e-lip-light: rgba(255, 255, 255, 0.11);
+  --e-hair: rgba(255, 255, 255, 0.10);
+  --e-fill: #35c46a;
+  --e-drain: #ec4a3f;
+  --e-r-pane: 22px;
+  --e-r-ctl: 12px;
+  --e-hit: 44px;
+  --e-track: 6px;
+  --e-thumb: 24px;
+  --e-tint-ruby: #f70001;
+  --e-tint-amber: #ebb900;
+  --e-tint-citrine: #fff912;
+  --e-tint-emerald: #00f700;
+  --e-tint-teal: #0aa3a3;
+  --e-tint-sapphire: #1f4fd8;
+  --e-tint-amethyst: #7a3fd1;
+  --e-tint-rose: #e0457b;
+}
