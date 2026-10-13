@@ -33,7 +33,7 @@ layer to your map last, and mark elements with `data-glass`. Tests: `node --test
 ## Used in
 
 [Pulse](https://github.com/datumsOG/toronto-bike-pulse) ·
-[Sun](https://github.com/datumsOG/sun-light-planner) ·
+[Soluna](https://github.com/datumsOG/soluna) ·
 [Toronto apartments](https://github.com/datumsOG/toronto-apartments)
 
 ## How it was made
