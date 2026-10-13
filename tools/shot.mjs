@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // shot.mjs — screenshot a page the way Blair's phone sees it, with no dependencies.
 //
-//   node (internal path) <url> <out.png> [--w 393 --h 852 --dpr 3]
+//   node tools/shot.mjs <url> <out.png> [--w 393 --h 852 --dpr 3]
 //        [--wait 4000] [--eval "js to run before the shot"] [--desktop] [--full]
 //
-// Why a real browser: (internal path) Screenshots
+// Why a real browser: internal/verify-in-the-real-thing.md. Screenshots
 // from --virtual-time-budget do not run requestAnimationFrame, so WebGL glass and
 // map tiles never paint. This drives headless Chromium over the DevTools protocol
 // instead (Node 22+ has a built-in WebSocket), with mobile emulation: touch, DPR 3,
@@ -24,7 +24,7 @@ const WAIT = +opt('--wait', 4000), EVAL = opt('--eval', null), DESKTOP = flag('-
 
 function findChrome() {
   if (process.env.CHROME) return process.env.CHROME;
-  const base = '(internal path)';
+  const base = process.env.HOME + '/.cache/ms-playwright';
   const dirs = existsSync(base) ? readdirSync(base).filter((d) => /^chromium-\d+$/.test(d)).sort() : [];
   for (const d of dirs.reverse()) {
     for (const sub of ['chrome-linux64', 'chrome-linux']) {

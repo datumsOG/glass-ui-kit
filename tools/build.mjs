@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // build.mjs — regenerate the token files, and optionally cut a release.
 //
-//   node (internal path)            regenerate src/tokens.css and src/glass/tokens.js
-//   node (internal path) release    also write releases/<version>/ (version from tokens.json)
+//   node tools/build.mjs            regenerate src/tokens.css and src/glass/tokens.js
+//   node tools/build.mjs release    also write releases/<version>/ (version from tokens.json)
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
